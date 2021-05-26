@@ -4,7 +4,10 @@ import { AppService } from './app.service';
 import { APP_INTERCEPTOR } from '@nestjs/core';
 
 @Module({
-  imports: [CacheModule.register()],
+  imports: [CacheModule.register({
+    ttl: 30,
+    max: 10,
+  })],
   controllers: [AppController],
   providers: [
     AppService,
