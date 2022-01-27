@@ -5,6 +5,9 @@ A free and opensource crypto coin dashboard with sentiment analysis, market pred
 
 [Messari](https://messari.io/api/docs)
 [Coingecko](https://www.coingecko.com/en/api)
+[TradingView](https://it.tradingview.com/broker/TradeStation/)
+[CryptoApis meh](https://cryptoapis.io/pricing)
+[CoinMarket](https://coinmarketcap.com/api/pricing/)
 
 # News website
 
